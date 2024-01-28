@@ -1,0 +1,79 @@
+body {
+    background-color: #f9f9f9;
+    .head {
+        width: 100%;
+        background-color: #202a51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        img {
+            width: 20%;
+            margin-left: 30px;
+        }
+        form {
+            width: 30%;
+
+            margin-right: 30px;
+            input {
+                width: 70%;
+                padding: 10px 7px;
+                border-radius: 25px;
+                border: none;
+                background-color: #f9f9f9;
+            }
+            button {
+                border: none;
+                background-color: #f9f9f9;
+                border-radius: 25px;
+                padding: 10px 12px;
+                i {
+                    color: #202a51;
+                }
+            }
+        }
+    }
+
+    #card_container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px 15px;
+        .card {
+            width: 22%;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            background-color: #639fcf;
+            padding: 20px 0;
+            border-radius: 25px;
+            row-gap: 16px;
+            img {
+                width: 90%;
+
+                border-radius: 15px;
+                margin: 0 auto;
+            }
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                font-family: sans-serif;
+                color: #f9f9f9;
+                margin-left: 15px;
+            }
+            span {
+                font-size: 17px;
+                font-weight: 700;
+                font-family: sans-serif;
+                color: #f9f9f9;
+                margin-left: 15px;
+            }
+        }
+    }
+}
